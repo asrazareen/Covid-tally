@@ -1,5 +1,5 @@
 const express = require('express');
-const { collection } = require('../../../GID/insta-project/backend/instaclone-node/model/user');
+const { collection } = require('../../../../GID/insta-project/backend/instaclone-node/model/user');
 const app = express()
 const port = 8080
 // Parse JSON bodies (as sent by API clients)
